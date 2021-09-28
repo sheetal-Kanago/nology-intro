@@ -1,0 +1,18 @@
+main{
+  display: flex;
+  justify-content: center;
+}
+/*
+main >.gallery{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}*/
+main>.gallery>a>img{
+  height: 40px;
+  width: 40px;
+  margin: 10px;
+  padding: 4px;
+  border: 2px solid black;
+  box-shadow: black 0 2px 2px 0;
+  border-radius: 5px;
+}
